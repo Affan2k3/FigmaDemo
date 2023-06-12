@@ -1,5 +1,5 @@
 import React from "react";
-import Cards from "./Cards";
+// import Cards from "./Cards";
 
 export default function Result({ heading }: { heading: string }) {
   return (
@@ -7,7 +7,7 @@ export default function Result({ heading }: { heading: string }) {
       <h1 className="font-normal text-[24px] tracking-[-0.02rem] leading-7 px-[80px] mt-[40px]">
         {heading}
       </h1>
-      <Cards />
+      {/* <Cards /> */}
     </div>
   );
 }
